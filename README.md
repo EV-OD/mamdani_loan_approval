@@ -76,3 +76,19 @@ We calculate the geometric center of the area under the aggregated fuzzy curve.
 | **Rule Inference** | Fuzzy Sets | Activation Levels (0.0 - 1.0) | `mamdani.ts` -> `runInference` |
 | **Aggregation** | Activation Levels | Combined Fuzzy Shape | `mamdani.ts` -> `aggregate` |
 | **Defuzzification** | Combined Fuzzy Shape | Final Crisp Score (e.g. 82.5) | `mamdani.ts` -> `defuzzifyCentroid` |
+
+
+## Installation & Setup
+```bash
+# Clone the repository
+git clone https://github.com/EV-OD/mamdani_loan_approval/
+
+# Navigate to the project directory
+cd mamdani_loan_approval
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
